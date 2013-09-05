@@ -1,3 +1,14 @@
+/*
+
+	Where:			Codechef December Cook-Off, 23 December, 2012
+	Link:			http://www.codechef.com/COOK29/problems/DIRECTI
+	Type:			String Manipulation	
+	Summary:		Input the path and then display the reverse of the path. let becomes
+					right and vice versa.
+	Other Notes:	Use of getline(cin, string), and this inputs until '\n'
+
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -46,5 +57,6 @@ int main() {
 			cout << endl;
 		temp.clear();
 	}
+
 	return 0;
 }

@@ -1,3 +1,25 @@
+/*
+    FAST IO only upto 32 bit INTEGERS ONLY!!!!
+    class to store int in string and add them.....to be used in future greately....
+
+    lessons learnt: #defines o be used very often
+                    use dynamic pgming and store values in arrays to ensure no exrta fn calls as they are very slow
+                    STL are very slow...to be used scarcely
+                    classes dont slow down by much....member fns can be used judiciously
+                    to get arrays of size > 10^6, get 2d arrays: arr[10][10^6]
+                    how to expess the abive array as #define....ie, how to access element
+                        #define ty(n, a, i) n[(int(a[i][0]/1000000))][(int)(a[i][0]%1000000)]
+                    as far as possible, use int32_t or int64_t or uint32_t and so on....
+                    Contains best prime generator....upto 10^7 in 0.16 secs
+                    in main fn, we CAN do....ty(n,a,i)[2] in case of 3d array - like for can_push_val                
+                    gdb: 
+                        run - start pgm
+                        run < input_file.txt
+                        print var_name
+                        g++ file.cpp -g to give line name in gdb
+                        
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
