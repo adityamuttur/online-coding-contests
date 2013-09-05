@@ -1,4 +1,6 @@
-online-coding-contests
+Solutions To Many Coding Contest...Online And Offline
 ======================
 
-A repository with solutions to questions from different online coding contests
+This repository has soltions to multiple questions from Multiple Coding Contests.
+Solutions to problems from multiple times here.
+
