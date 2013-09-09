@@ -11,7 +11,7 @@ int main() {
 	int T;
 	uint64_t ans, check;
 	long double D, x, temp, r, b, t, a, c;
-	
+
 	scanf("%d", &T);
 
 	for (int i = 1; i <= T; i++) {
