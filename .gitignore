@@ -15,3 +15,6 @@
 
 /*/temp/
 .DS_Store
+
+# For Java Files
+*.class
