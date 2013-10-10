@@ -13,7 +13,7 @@
 *.la
 *.a
 
-/*/temp/
+temp/
 .DS_Store
 
 # For Java Files
