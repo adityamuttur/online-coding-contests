@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/contests/oct13/challenges/chocolate-feast
+
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
